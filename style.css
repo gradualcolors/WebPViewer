@@ -1,8 +1,4 @@
-#webp_box {
-height: 500px;
-border: 1px solid lightsteelblue;
-margin-bottom: 50px;
-}
+
 
 body {
     font-family: sans-serif;
@@ -11,11 +7,20 @@ body {
   a {
     color: #369;
   }
-
+  .btn-main {
+    color: #fff;
+    background-color: #0e8285e7;
+    border-color: #0e8285e7;
+  }
+  #webp_box {
+    height: 500px;
+    border: 1px solid lightsteelblue;
+    margin-bottom: 50px;
+    }
   #drop-area {
     border: 2px dashed #ccc;
     border-radius: 20px;
-    width: 480px;
+    max-width: 480px;
     margin: 25px auto;
     padding: 20px;
   }
@@ -32,7 +37,7 @@ body {
     margin-top: 10px;
   }
   #gallery img {
-    height:450px;
+    max-height:450px;
     margin:auto;
     display: block;
   }

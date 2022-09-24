@@ -40,9 +40,8 @@
                 <form class="my-form">
                   <p>Upload the WebP file with the file dialog or by dragging and dropping the image onto the dashed region.</p>
                   <input type="file" id="fileElem" accept="image/webp" onchange="handleFiles(this.files)">
-                  <label class="button" for="fileElem">Select some files</label><br/><br/>
-                  <p><input id = "colorpicker" type = "color" value="#ffffff"> <small>Change Background Color</small><br/><br/>
-                  <label for="backgroundFile" class="btn button"><small>Select Background Image</small></label>
+                  <label class="btn btn-main" for="fileElem">Select some files</label>&nbsp;&nbsp;<label for="backgroundFile" class="btn btn-secondary"><small>Select Background Image</small></label><br/><br/>
+                  <p><input id = "colorpicker" type = "color" value="#ffffff"> <small>Change Background Color</small>
                   <input type="file" style="display:none;" id="backgroundFile" accept="image/*" onchange="handleBackground(this.files)"></p>
                 </form>
               </div>
